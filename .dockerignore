@@ -1,0 +1,14 @@
+.env
+.git
+.gitignore
+.vscode
+coverage
+logs
+node_modules
+*.log
+*.md
+docker-compose.yml
+codefresh.yml
+.coveralls.yml
+server/config/environment/test.js
+server/config/environment/dind/
