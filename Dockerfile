@@ -22,3 +22,5 @@ RUN apt-get update
 RUN apt-get install -y git apt-transport-https software-properties-common kubectl azure-cli google-cloud-sdk python-pip python-dev build-essential
 
 RUN pip install --upgrade pip virtualenv awscli --user
+
+RUN apt-get clean
